@@ -1,4 +1,5 @@
-#ODBC Connect
+# ODBC Connect
+
 **ODBC Connect** is a Windows user interface for **ODBC data sources**. It enables you to query both 32bit and 64bit ODBC data sources and also extract data using a command line interface. It was primarily designed and built to make life easier for developers of IBM Cognos TM1 but can be used by anyone wanting to have a graphical tool to query ODBC data sources.
 
 The features include:
