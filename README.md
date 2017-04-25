@@ -1,12 +1,14 @@
-# TI helper
-TI Helper is an Auto Hot Key script that can be used to enhance the options in the IBM Cognos TM1 Turbo Integrator (TI) process editor. It gives short cuts and options to generate code when using the TI editor.
+#ODBC Connect
+**ODBC Connect** is a Windows user interface for **ODBC data sources**. It enables you to query both 32bit and 64bit ODBC data sources and also extract data using a command line interface. It was primarily designed and built to make life easier for developers of IBM Cognos TM1 but can be used by anyone wanting to have a graphical tool to query ODBC data sources.
 
-To use:
+The features include:
 
-1. Download the TIHelper.zip from downloads
-2. Unzip the TIHelper.exe to a directory
-3. Double click on the executable
-4. In any of the TI tabs click *Ctrl-Space*
-5. The TI Helper menu will appear
-6. You don't need Auto Hot Key installed to run TIHelper.exe. 
-7. If you want to run TIHelper automatically add a short cut to TIHelper.exe to the Startup folder on you Windows Start menu.
+* Graphical User Interface (GUI) to 32bit and 64bit data sources
+* Lists the tables and columns schema in the data source
+* Generation of SQL statements by dragging tables to the SQL editor
+* Multiple tabbed interface
+* Query results in a grid or exported to file
+* Detailed error messages to solve query errors
+* Command line options to extract data to file
+* Generation of TM1 Turbo Integrator (TI) ExecuteCommand commands for using 32bit ODBC drivers in 64bit TM1
+* Due to the wide availability of ODBC drivers it can be used with most relational database management systems (RDBMS), for example: SQL Server, Oracle, MySql, Postgresql, DB2, Sqlite, etc.
